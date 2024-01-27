@@ -21,7 +21,7 @@ $config->set('dbpass', 'Hgcb6CBccgghbb41Ee13caCBb1GFeCBa');
 
 
 
-
+// hola
 //mysql://root:Hgcb6CBccgghbb41Ee13caCBb1GFeCBa@monorail.proxy.rlwy.net:40140/railway
 ?>
 
