@@ -12,8 +12,11 @@ $config->set('modelsFolder', 'models/');
 $config->set('viewsFolder', 'views/');
 
 // Parámetros de conexión a la BD
-$config->set('dbhost', 'localhost');
-$config->set('dbname', 'dwesmvc');
+$config->set('dbhost', 'monorail.proxy.rlwy.net:40140');
+$config->set('dbname', 'railway');
 $config->set('dbuser', 'root');
-$config->set('dbpass', '');
+$config->set('dbpass', 'Hgcb6CBccgghbb41Ee13caCBb1GFeCBa');
 ?>
+
+
+//mysql://root:Hgcb6CBccgghbb41Ee13caCBb1GFeCBa@monorail.proxy.rlwy.net:40140/railway

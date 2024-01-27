@@ -1,15 +1,12 @@
-<!-- Incluimos la cabecera -->
-<?php include_once("common/cabecera.php"); ?>
+
 
 <!-- Vista para editar un elemento de la tabla -->
 
 <body>
-	<!-- Incluimos un menú para la aplicación -->
-	<?php include_once("common/menu.php"); ?>
 
 	<!-- Parte específica de nuestra vista -->
 	<form action="index.php" method="post">
-		<input type="hidden" name="controlador" value="ItemAuto">
+		<input type="hidden" name="controlador" value="Item">
 		<input type="hidden" name="accion" value="editar">
 
 		<label for="codigo">Codigo</label>
@@ -34,8 +31,6 @@
 	endif;
 	?>
 
-	<!-- Incluimos el pie de la página -->
-	<?php include_once("common/pie.php"); ?>
-</body>
+	</body>
 
 </html>

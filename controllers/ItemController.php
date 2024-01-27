@@ -28,7 +28,7 @@ class ItemController {
         // Finalmente presentamos nuestra plantilla 
         // Llamamos al método "show" de la clase View, que es el motor de plantillas
         // Genera la vista de respuesta a partir de la plantilla y de los datos
-        $this->view->show("itemListarView.php", $data);
+        $this->view->show("ListarView.php", $data);
     }
 
     // Método del controlador para crear un nuevo item
@@ -60,7 +60,7 @@ class ItemController {
         }
 
         // Si no recibe el item para añadir, devuelve la vista para añadir un nuevo item
-        $this->view->show("itemNuevoView.php", array('errores' => $errores));
+        $this->view->show("NuevoView.php", array('errores' => $errores));
 
 
 
@@ -100,7 +100,7 @@ class ItemController {
         }
 
         // Si no se ha pulsado el botón de actualizar se carga la vista para editar el item
-        $this->view->show("itemEditarView.php", array('item' => $item, 'errores' => $errores));
+        $this->view->show("EditarView.php", array('item' => $item, 'errores' => $errores));
 
 
 
