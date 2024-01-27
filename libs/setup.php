@@ -16,7 +16,12 @@ $config->set('dbhost', 'monorail.proxy.rlwy.net:40140');
 $config->set('dbname', 'railway');
 $config->set('dbuser', 'root');
 $config->set('dbpass', 'Hgcb6CBccgghbb41Ee13caCBb1GFeCBa');
-?>
+
+    
+
+
 
 
 //mysql://root:Hgcb6CBccgghbb41Ee13caCBb1GFeCBa@monorail.proxy.rlwy.net:40140/railway
+?>
+

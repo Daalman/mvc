@@ -7,8 +7,8 @@
     <!-- Parte específica de nuestra vista -->
     <table>
         <tr>
-            <th>Codigo</th>
-            <th>Nombre</th>
+            <th>Cod</th>
+            <th>elemento</th>
         </tr>
         <?php
         foreach ($items as $item) {
